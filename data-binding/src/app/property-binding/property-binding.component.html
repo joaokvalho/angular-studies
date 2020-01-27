@@ -1,0 +1,18 @@
+<article class="content-card">
+    <h1 class="article-title">Property Binding</h1>
+
+    <div>
+        <div class="alert" *ngIf="added">
+            <P>{{ msg }} {{name}}!</P>
+        </div>
+
+        <div style="padding: 10px;">
+            <label>Nome</label>
+            <input type="text" placeholder="Enter a name" (focus)="onFocus()" (input)="change($event.target.value)">
+            <button class="btn" (click)="add()" [disabled]="name.length == 0">Add</button>
+        </div>
+
+    </div>
+
+
+</article>

@@ -1,0 +1,18 @@
+<article class="content-card">
+    <h1 class="article-title">Event Binding</h1>
+
+    <div>
+        <div class="alert" *ngIf="isEmpty || added">
+            <P>{{ msg }} {{name}}!</P>
+        </div>
+
+        <div style="padding: 10px;">
+            <label>Nome</label>
+            <input type="text" placeholder="Enter a name" (focus)="onFocus()" (input)="onChange($event.target.value)">
+            <button class="btn" (click)="add()">Add</button>
+        </div>
+
+    </div>
+
+
+</article>

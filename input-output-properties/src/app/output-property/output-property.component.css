@@ -1,0 +1,23 @@
+.btn-blue {
+    background-color: #2870d4;
+    color: #fff;
+    font-size: 25px;    
+}
+.btn-blue:hover {
+    background-color: #518de0;
+    color: #fff;
+}
+
+.form-contador{
+    margin: 0 auto;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+.form-contador input{        
+    padding: 8px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}

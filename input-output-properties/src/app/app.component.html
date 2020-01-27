@@ -1,0 +1,24 @@
+<section class="container">
+
+  <div class="header">
+    <h1 class="header-title">My App</h1>
+  </div>
+
+  <section class="content">
+
+    <app-course [object]="courses"></app-course>
+
+    <div style="background-color: antiquewhite;">
+      <app-contador (countExport)="OnCount($event)"></app-contador>
+      
+      <div class="geral-count">
+        <p>Result component count: <strong>{{count}}</strong></p>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+</section>

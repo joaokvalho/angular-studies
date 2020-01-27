@@ -1,0 +1,9 @@
+.geral-count{
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 20px;
+}
+
+.geral-count h1{
+    text-align: center;    
+}

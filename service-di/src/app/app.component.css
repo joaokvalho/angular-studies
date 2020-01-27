@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header{
+    padding: 15px;
+    background-color: burlywood;
+}
+
+.header h1 {
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+<article class="content">
+    <h1 class="content-title">Life Cicle of Compoent</h1>
+
+    <p>When the component is built</p>
+    <h1>msgConstructor: {{ msgConstructor }}</h1>
+    <br>
+
+    <button class="btn" (click)="ngOnChanges()">msgOnChange</button>
+    <p>When property binding is updated</p>
+    <h1>msgOnChange: {{ msgOnChange }}</h1>
+    <br>
+
+    <p>When the component is updated</p>
+    <h1>msgOnInit: {{ msgOnInit }}</h1>
+    <br>
+
+    <p>Every change verification cycle</p>
+    <h1>msgDoCheck: {{ msgDoCheck }}</h1>
+    <br>
+
+    <p>After inserting external content in the view</p>
+    <h1>msgAfterContentInit: {{ msgAfterContentInit }}</h1>
+    <br>
+
+    <p>For each verification of inserted content</p>
+    <h1>msgAfterContentChecked: {{ msgAfterContentChecked }}</h1>
+
+    <br>
+    <p>For each verification of inserted content / child content</p>
+    <h1>msgAfterViewChecked: {{ msgAfterViewChecked }}</h1>
+
+    <br>    
+    <p>Before the directive / component is destroyed</p>
+    <h1>msgOnDestroy: {{ msgOnDestroy }}</h1>
+
+    <br>
+</article>
